@@ -1,0 +1,31 @@
+# 这个章节主要讲了关于string的几种常见题型及方法
+
+1. group anagrams: 找出来相同的字符归为一类，不相同的放到不同类里。这里用dict结构，key存不同的类，value
+                   来分别记每一类里不同的字符串。
+
+2. valid anagram: 学会使用string里的sorted(str)的方法，判断字符串是否不同。
+
+3. implement str: 这个题用来找到needle是否是haystack的子字符串，如果是的话返回位置，窗口长度为len(needle)
+                  固定的，移动起始位置来遍历haystack。
+
+4. length of last word: 这个题找最后一个单词的长度，学会用s.split()将string按单词分开，然后求长度。
+
+5. valid palindrome: 这个题是验证字符串是否是回文序列，因为牵扯大小写和非数字字母输入，while判断左右，两边同
+                     时往中间靠，这里学习到s.isalnum()判断是否为数字字母，s.islower()判断左右是否相同。
+
+6. longest palindromic substring: 找出最大回文子序列。这个题我只理解了穷举法，先列出所有子序列，然后判断是否
+                                  回文，最后找出最大的。
+
+7. rotate string: 这个题是判断a,b字符串是否是通过旋转而来的，这个题用巧办法，如果b由a旋转而得，b就一定是a+a的
+                  子字符串，通过判断b in a+a判断而得。
+
+8. wildcard matching: 这个题是看pattern变化后是否和string相同，如果string[i]和pattern[i]一样或者pattern[i]
+                      为？那么往下走即可，如果出现了*符号，记住当前的i，j状态并让pattern继续往下走,走错了返回来
+                      j往下走i也往下走以此类推。
+
+9. reverse words in a string: 这个题将string里的单词倒着打印出来，还是用spit()先分开然后倒过来。
+
+10. longest common prefix: 这个题要返回最长的公共前缀，用一个二维数组解决，str[i][j]，i用来存第几个字母，j用来存
+                           字母的第几个数，以第一个字母为基准开始循环即可。
+
+11. count and say: 没太理解，大概就是递归思路吧。
