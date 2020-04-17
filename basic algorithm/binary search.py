@@ -33,8 +33,8 @@ class Solution:
         return -1
 
 
-alist = [1, 4, 5, 6, 7, 9, 10]
+alist = [0, 1, 2]
 s = Solution()
-print(s.binarysearch2(alist, 0, len(alist), 10))
+print(s.binarysearch2(alist, 0, len(alist), 0))
 
 
