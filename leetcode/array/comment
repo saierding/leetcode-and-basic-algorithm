@@ -1,0 +1,35 @@
+# 这个章节主要讲了关于array的几种常见题型及方法
+
+1. two sum: 这个题需要写出和为target的两个数的位置，这里用dict，key存数，value存位置，如果target-key在key里
+            那么返回value即可。
+
+2. 3 sum: 这个题要求写出所有三个数和为0的组合。遍历数组，在每个循环中target就是-nums[i], 然后转化为two sum。
+
+3. 3 sum closest: 这个题要写出最接近target的三个数的和。这里先对nums遍历，然后对i+1到len-1左右夹击，i+left+
+                  right-target小于0则left++要不right--,用closest作为寄存器保存当前最接近值。
+
+4. first missing positive: 这个题要找出数组第一个丢失的值。遍历数组，并判断每个数字是否在正确的位置nums[i]
+                           =nums[nums[i]-1]不是的话就互换位置即可，最后从头打印nums[i]!=i+1的就是缺失的。
+
+5. kth largest element in an array: 这个题要找出数组里第k大的数。可以先排序然后nums[-k]即可。大数据的情况可以
+                                    用最小堆排序来做，先整一个len=k的最小堆然后有比他大的就进去再排序，最后输出
+                                    output[0]即可。
+
+6. maximum subarray: 老问题了，可以固定起始位置，可以直接动态规划。
+
+7. median of two sorted array: 将两个array加起来排序然后直接求中位数。
+
+8. merge sorted array: 这个题给了两个array，要求将nums2加到nums1中排序。这里从后往前排序变动少，从后往前记为nums1[index]
+                       然后谁大将谁填入其中，如果最后nums2没填完，就把它从后往前继续填进去。
+
+9. remove duplicates from sorted array: 这个题是要将nums重新排序，重复的不要，前k个数位不重复的返回k。两个指针同时走，
+                                        当j=i时就把nums[i]填为j并且i往后走，要不然i不动。
+
+10. remove duplicates from sorted arrayII: 这个题和上个题几乎一样，大于二的不填进去，要不然填进去即可。
+
+11. remove element: 这个题是把值为val的去掉，重新排列nums。与上面思路相似双指针，一个遍历，一个left计数，遇到不同的left++并
+                    改写nums[left]。
+
+12. rotate array: 这没啥说的了看代码即可。
+
+13. search in rotated sorted array: 旋转过的array找val存在的位置，还是用二分法找，注意这道题的边界值。
