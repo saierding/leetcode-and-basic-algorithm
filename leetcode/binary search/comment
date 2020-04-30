@@ -1,0 +1,26 @@
+# 这个章节主要讲了关于array的几种常见题型及方法
+
+1. Find First and Last Position of Element in Sorted Array:
+   这个题是从二分算法演化出来找出第一个和最后一个的位置，二分算法找到mid后如果target在前面再继续往前找，中间值存储为
+   result0即可，如果target在后面再继续往后找，中间值存储为result1.
+
+2. Find Minimum in Rotated Sorted Array:
+   这个题求反转后的有序数列的最小值。如果mid比right小的话，最小值肯定在左边（包含mid），要不然肯定在右边（不包含mid),
+   最后剩下了left和right，哪个大返回哪个。
+
+3. Find Peak Element: 这个题求一个峰值，在数列里比左右邻居都大。这个题是用数学定理，如果mid比相邻的左边的小，峰值在左边，
+   如果mid比相邻的右边的小，峰值在右边。
+
+4. Median of Two Sorted Arrays: 在array里出现过，将两个array归并排序然后直接求中位数。
+
+5. Search a 2D Matrix: 在2d矩阵中找target。和正常的二分一样，只不过找mid在那里时费了点劲，用mid//length得到[m][],
+                       用mid%length得到[][n]。
+
+6. Search a 2D Matrix II: 再按行和列顺序排序的矩阵中找target，从右上开始找起即可，记得[][n]可以找到0。
+
+7. Search in Rotated Sorted Array:
+   在array里出现过，用二分法找，记得找到有序地数列，然后对有序地数列进行二分查找，比如mid >= left的话，左边就是有序的。
+
+8. Search Insert Position: 有target输出位置，没有输出插入位置。和二分写法一样，如果没有返回left即可。
+
+9. Sqrt(x): 二分用做除法运算，基本思路一样，注意边界值。
