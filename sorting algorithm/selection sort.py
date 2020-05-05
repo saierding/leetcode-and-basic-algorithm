@@ -1,5 +1,6 @@
 # 选择排序
 
+
 class Solution:
 
     def selectionsort(self, alist):

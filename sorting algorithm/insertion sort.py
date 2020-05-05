@@ -1,5 +1,6 @@
 # 插入排序
 
+
 class Solution:
 
     def insertionsort(self, alist):

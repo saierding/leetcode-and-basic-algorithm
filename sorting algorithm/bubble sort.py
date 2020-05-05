@@ -1,5 +1,6 @@
 # 冒泡排序
 
+
 class Solution:
 
     def bubblesort(self, alist):
