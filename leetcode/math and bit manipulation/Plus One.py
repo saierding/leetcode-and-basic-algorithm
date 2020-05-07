@@ -13,8 +13,7 @@ class Solution:
                 return digits
             i -= 1
 
-        digits[0] = 1
-        digits.append(0)
+        digits.insert(0, 1)
         return digits
 
 

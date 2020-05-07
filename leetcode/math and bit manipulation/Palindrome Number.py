@@ -18,8 +18,5 @@ class Solution:
         return ans == x
 
 
-
-
-
 s = Solution()
-print(s.isPalindrome(120))
+print(s.isPalindrome(121))

@@ -13,6 +13,7 @@ class Solution:
         for i in dict:
             if dict[i] == 1:
                 return i
+
     # bit
     def singleNumber(self, nums):
         x = 0
