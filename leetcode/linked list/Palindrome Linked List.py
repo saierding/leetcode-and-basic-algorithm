@@ -18,18 +18,13 @@ class Solution:
         while fast.next and fast.next.next:
             fast = fast.next.next
             slow = slow.next
-        if fast.next:
-            cur = slow.next
-            slow.next = None
-            while cur:
-                reverse_node.append(cur.val)
-                cur = cur.next
-        else:
-            cur = slow.next
-            slow.next = None
-            while cur:
-                reverse_node.append(cur.val)
-                cur = cur.next
+        cur = slow.next
+        slow.next = None
+
+        while cur:
+            reverse_node.append(cur.val)
+            cur = cur.next
+
         while head and len(reverse_node) > 0:
             if head.val != reverse_node.pop():
                 return False

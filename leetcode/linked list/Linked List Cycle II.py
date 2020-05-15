@@ -1,9 +1,6 @@
 # 142. Linked List Cycle II
 
 
-# 141. Linked List Cycle
-
-
 class ListNode:
 
     def __init__(self, x):

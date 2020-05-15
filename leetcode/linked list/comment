@@ -1,0 +1,42 @@
+# 这个章节主要讲了关于linked list的几种常见题型及方法
+
+1. Add Two Numbers
+   这个题是对两个linked list进行相加。循环遍历两个node和carry(进位)，数的和加进位取余数就是新的链表值。
+
+2. Copy List with Random Pointer
+   这个题是拷贝一个带有random指针的链表。先正常复制正常的链表(包括random只想老node)，将random存在一个dict里，
+   使得{old_random:new_random}。
+
+3. Linked List Cycle
+   这个题是判断链表是否是有环。使用快慢指针，如果存在环，那么总会相遇。
+
+4. Linked List Cycle II
+   这个题是返回有环链表的起点。还是使用快慢指针，第一次相遇后，慢继续迭代，pre节点从头出发，和慢指针相遇的节点为入口。
+
+5. LRU Cache
+   这个题是创造一个LRU缓存，可以get最近活跃的两个值。采用collection里的OrderedDict的方法，如果超过capacity就会弹出
+   popitem(last=false)。
+
+6. Merge Two Sorted Lists
+   这个题是将两个排好序的linked list进行合并排序。使用mergesort的方法进行排序即可。
+
+7. Merge k Sorted Lists
+   这个题是将k个排好序的链表合并排序。两次遍历用最小堆来存储（linked list对象）。
+
+8. Palindrome Linked List
+   这个题是判断是否是回文链表。用快慢指针找到中点，终点以后的入栈，然后弹出栈判断是否和前面的相等。
+
+9. Remove Duplicates from Sorted List
+   这个题是删除链表中的重复节点。直接遍历链表，发现next.val = val就直接指向next.next即可。
+
+10. Remove Duplicates from Sorted List II
+    这个题是删除链表中的重复节点（包含重复）。两个指针，一个一直找到next不重复的然后另一个直接next到这个下面。
+
+11. Remove Nth Node From End of List
+    这个题是要删去从后数第n个节点。两个指针，一个先往前走n个，第二个这时候开始出发，第一个到头第二个就指向next.next即可。
+
+12. Reverse Linked List
+    反转链表。
+
+13. Sort List
+    给链表排序。用归并的方法排序，找中间点用快慢指针找。

@@ -23,6 +23,6 @@ class Solution:
         return alist
 
 
-unsorted_list = [6, 5, 3, 1, 8, 7, 2, 4, 9, 6]
+unsorted_list = [3, 6, 9, 11, 6, 7, 5]
 s = Solution()
 print(s.quicksort(unsorted_list, 0, len(unsorted_list)-1))
