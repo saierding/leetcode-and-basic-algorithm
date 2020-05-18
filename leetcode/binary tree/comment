@@ -1,0 +1,28 @@
+# 这个章节主要讲了关于binary tree的几种常见题型及方法
+
+1. Binary Tree Inorder Traversal
+   这个题是中序遍历二叉树，有递归法和迭代法。递归法不提了，主要是迭代。迭代就是栈存储并循环root和栈，先一直往左走并
+   进栈，走完了root以后开始出栈并且存储val到result，最后root变为右子树。
+
+2. Binary Tree Preorder Traversal
+   这个题是前序遍历二叉树，有递归和迭代法。递归法不提了，主要是迭代。迭代是栈存储并循环栈，root进栈然后出栈存储val
+   到result。接着如果有右子树先进栈右子树，然后进栈左子树。这样顺序就是中左右了。
+
+3. Binary Tree Level Order Traversal
+   这个题是广度遍历二叉树每层的节点。递归的方法很好理解，主要是迭代的方法。迭代就是将每一层的node存储进一个队列。
+   当还存在queue时，循环这个队列，将上一层的node出队列并且将这一层的左子树右子树进队列。
+
+4. Binary Tree Maximum Path Sum
+   这个题是找到所有路径中和最大的路径。这个题没太看明白也。
+
+5. Binary Tree Zigzag Level Order Traversal
+   这个题是蛇形的广度遍历。这个和广度遍历基本一样，加一个条件判断即可，如果奇数就正常输出，偶数就输出[::-1]。
+
+6. Maximum Depth of Binary Tree
+   这个题是求数的最大深度。同样广度遍历即可，每一层递增一个数。
+
+7. Construct Binary Tree from Preorder and Inorder Traversal
+   这个题是根据前序和中序遍历来生成二叉树。有递归和迭代两个方法。递归就是找到前序遍历的第一个数在中序遍历的位置。
+   然后递归即可。主要是迭代。迭代就还是用栈来存储node，循环preorder，当pre和inorder[i]不相等时说明还有左子树
+   一直往左边进栈，相等时说明到头了，这时候遍历stack和相等的条件，满足时出栈并且i+1,最后把右子树进栈并且加进树。
+
