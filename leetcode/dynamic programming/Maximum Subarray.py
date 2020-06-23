@@ -17,7 +17,9 @@ class Solution:
         cur_sum = 0
         max_sum = float('-inf')
         for i in nums:
+            # 当前的值和当前值加上之前的cur_sum的最大值
             cur_sum = max(i, cur_sum+i)
+            # 当前值cur_sum和最大值max_sum的最大值
             max_sum = max(max_sum, cur_sum)
         return max_sum
 

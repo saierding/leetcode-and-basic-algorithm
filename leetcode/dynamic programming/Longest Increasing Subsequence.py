@@ -4,6 +4,10 @@
 class Solution:
 
     # [1, 1, 1, 1, 1]然后每次迭代增加
+    # [1, 2, 2, 1, 2]
+    # [1, 2, 3, 1, 3]
+    # [1, 2, 3, 1, 4]
+    # [1, 2, 3, 1, 4] max(2, 4)
     def lengthOfLIS(self, nums):
         if not nums:
             return 0
