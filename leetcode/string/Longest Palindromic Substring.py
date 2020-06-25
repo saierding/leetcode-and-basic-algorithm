@@ -29,10 +29,13 @@ class Solution:
     #     return s == s[::-1]
 
     def longestPalindrome(self, s):
+
         if len(s) < 2 or s == s[::-1]:
             return s
         start, maxlength = 0, 1
         for i in range(len(s)):
+            # 在发现一个新的回文时，比如'aca'，这是遍历到了下一个'b'就插'bacab'和'acab'这两个新的就可以了
+            # 即下面的odd 和 even
             odd = s[i - maxlength - 1:i + 1]
             even = s[i - maxlength:i + 1]
             if i - maxlength - 1 >= 0 and odd == odd[::-1]:
@@ -44,8 +47,6 @@ class Solution:
         return s[start:start + maxlength]
 
 
-
-
-string = 'babad'
+string = 'bacabd'
 s = Solution()
 print(s.longestPalindrome(string))
