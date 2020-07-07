@@ -10,7 +10,7 @@ class ListNode:
 
 class Solution:
 
-    # 两个指针来存储位置
+    # 两个指针来存储位置, 两个指针，一个一直找到next不重复的然后另一个直接next到这个下面。
     def deleteDuplicates(self, head):
         dummy = ListNode(0)
         dummy.next = head

@@ -10,6 +10,7 @@ class ListNode:
 
 class Solution:
 
+    # 两个指针，一个先往前走n个，第二个这时候开始出发，第一个到头第二个就指向next.next即可
     def removeNthFromEnd(self, head, n):
         dummy = ListNode(0)
         dummy.next = head

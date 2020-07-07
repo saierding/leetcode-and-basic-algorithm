@@ -6,8 +6,12 @@ class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
-
-
+# Input:
+# [
+#   1->4->5,
+#   1->3->4,
+#   2->6
+# ]
 class Solution:
 
     # 二次遍历存为一个排序的最小堆[val, id, listnode]
