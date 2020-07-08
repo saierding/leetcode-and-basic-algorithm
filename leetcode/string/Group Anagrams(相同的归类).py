@@ -3,7 +3,8 @@
 
 class Solution:
 
-    # 用dict存相同的字符
+    # 用dict存相同的字符，key存不同的类，value
+    # 来分别记每一类里不同的字符串。
     def groupAnagrams(self, strs):
         str_dict = {}
         result = []

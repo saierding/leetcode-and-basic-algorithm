@@ -3,6 +3,9 @@
 
 class Solution:
 
+    # 如果string[i]和pattern[i]一样或者pattern[i]
+    # 为？那么往下走即可，如果出现了*符号，记住当前的i，j状态并让pattern继续往下走,走错了返回来
+    # j往下走i也往下走以此类推。
     def isMatch(self, s, p):
         s_len, p_len = len(s), len(p)
         i, j, star, i_index = 0, 0, -1, 0

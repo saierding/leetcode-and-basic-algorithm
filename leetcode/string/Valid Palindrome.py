@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 因为牵扯大小写和非数字字母输入，while判断左右，两边同
+    # 时往中间靠，这里学习到s.isalnum()判断是否为数字字母，s.islower()判断左右是否相同。
     def isPalindrome(self, s):
         if not s:
             return True

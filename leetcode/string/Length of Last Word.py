@@ -24,4 +24,4 @@ class Solution:
 string = " "
 str2 = "Hello World"
 s = Solution()
-print(s.lengthOfLastWord(string))
+print(s.lengthOfLastWord(str2))
