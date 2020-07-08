@@ -11,6 +11,9 @@ class TreeNode:
 
 class Solution:
 
+    # 和广度遍历一样的思路，就是在判断一下是否是奇数层或者偶数层即可
+    # 迭代就是将每一层的node存储进一个队列。
+    # 当还存在queue时，循环这个队列，将上一层的node出队列并且将这一层的左子树右子树进队列。
     def zigzagLevelOrder(self, root):
         if not root:
             return

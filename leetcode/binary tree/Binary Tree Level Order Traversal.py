@@ -30,7 +30,8 @@ class Solution:
     #     self._levelOrder(level, result, root)
     #     return result
 
-    # 迭代使用队列存每一层的节点，最后全部添加到result
+    # 迭代就是将每一层的node存储进一个队列。
+    # 当还存在queue时，循环这个队列，将上一层的node出队列并且将这一层的左子树右子树进队列。
     def levelOrder(self, root):
         if not root:
             return

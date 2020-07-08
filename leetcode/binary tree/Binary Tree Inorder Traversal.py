@@ -18,6 +18,8 @@ class Solution:
         return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right)
 
     # 迭代
+    # 迭代就是栈存储并循环root和栈，先一直往左走并
+    # 进栈，走完了root以后开始出栈并且存储val到result，最后root变为右子树。
     def inorderTraversall(self, root):
         if not root:
             return []

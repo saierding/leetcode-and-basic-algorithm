@@ -11,6 +11,9 @@ class TreeNode:
 
 class Solution:
 
+    # 递归，返回条件就是
+    # 如果是路径的root，此时的最大值来自于node.left+node.right
+    # 不是路径的root，此时的最大值来自于node.left或node.right
     def maxPathSum(self, root):
         res = float('-inf')
 
