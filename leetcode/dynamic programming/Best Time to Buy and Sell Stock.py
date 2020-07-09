@@ -15,7 +15,7 @@ class Solution:
         return max(result)
 
     # 快方法
-    def maxProfit(self, prices):
+    def maxProfit1(self, prices):
         min_price, max_profit = float('inf'), 0
         for price in prices:
             min_price = min(min_price, price)
