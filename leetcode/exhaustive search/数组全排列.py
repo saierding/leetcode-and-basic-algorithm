@@ -3,7 +3,8 @@
 
 class Solution:
 
-    # 递归
+    # 递归遍历谁把谁拿出来然后剩下的继续递归
+    # [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
     def permute(self, nums):
         if len(nums) <= 1:
             return [nums]

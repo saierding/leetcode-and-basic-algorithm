@@ -11,7 +11,7 @@ class Solution:
                     return True
         return False
 
-    # dfs
+    # dfs,前后左右分别找是否满足
     def helper(self, i, j, board, word, index):
         if index == len(word):
             return True

@@ -3,6 +3,11 @@
 
 class Solution:
 
+    # 首先传入s="aab" pal=[] res = [], 首先切割出"a"（然后是"aa" "aab" ...），然后判读它是不是回文串：
+    # 如果不是，直接跳过
+    # 如果是，则此时剩余的 s="ab"， pal += ["a"]
+    # 写入res的判断是，当s=""时，记录结果
+
     def partition(self, s):
         result = []
         if not s:
