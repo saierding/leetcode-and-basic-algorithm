@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 这个题是要将nums重新排序，重复的不要，前k个数位不重复的返回k。两个指针同时走，
+    # 当j=i时就把nums[i]填为j并且i往后走，要不然i不动。
     def removeDuplicates(self, nums):
         i = 0
         for j in range(1, len(nums)):

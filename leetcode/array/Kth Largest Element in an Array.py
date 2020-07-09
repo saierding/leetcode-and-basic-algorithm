@@ -1,6 +1,10 @@
 # 215. Kth Largest Element in an Array
 
 
+# 这个题要找出数组里第k大的数。可以先排序然后nums[-k]即可。
+# 大数据的情况可以用最小堆排序来做，先整一个len=k的最小堆然后有比他大的就进去再排序，最后输出
+# output[0]即可。[4,5,5,6]
+
 class Solution:
 
     # def findKthLargest(self, nums, k):

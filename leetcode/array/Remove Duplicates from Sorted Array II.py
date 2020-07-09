@@ -3,6 +3,7 @@
 
 class Solution:
 
+    # 这个题和上个题几乎一样，大于二的不填进去，要不然填进去即可。
     def removeDuplicates(self, nums):
         i = 0
         index = 1

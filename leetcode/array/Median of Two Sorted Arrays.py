@@ -3,6 +3,7 @@
 
 class Solution:
 
+    # 将两个array加起来排序然后直接求中位数。
     def findMedianSortedArrays(self, nums1, nums2):
         num = sorted(nums1+nums2)
         odd = float(num[(0+len(num))//2])

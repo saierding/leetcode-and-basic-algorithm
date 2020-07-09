@@ -3,6 +3,7 @@
 
 class Solution:
 
+    # 旋转过的array找val存在的位置，还是用二分法找，注意这道题的边界值
     def search(self, nums, target):
         if target not in nums:
             return -1
@@ -27,6 +28,7 @@ class Solution:
 
 
 nums = [3, 1]
-target = 3
+nums1 = [4, 5, 6, 7, 0, 1, 2]
+target = 0
 s = Solution()
-print(s.search(nums, target))
+print(s.search(nums1, target))

@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 这个题要写出最接近target的三个数的和。这里先对nums遍历，然后对i+1到len-1左右夹击，i+left+
+    # right-target小于0则left++要不right--,用closest作为寄存器保存当前最接近值。
     def threeSumClosest(self, nums, target):
         nums_len = len(nums)
         nums.sort()

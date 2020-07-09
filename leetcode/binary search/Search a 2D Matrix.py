@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 在2d矩阵中找target。和正常的二分一样，只不过找mid在那里时费了点劲，用mid//length得到[m][],
+    # 用mid%length得到[][n]。
     def searchMatrix(self, matrix, target):
         if not matrix:
             return False

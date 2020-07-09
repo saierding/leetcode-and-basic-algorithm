@@ -3,6 +3,7 @@
 
 class Solution:
 
+    # 遍历数组，在每个循环中target就是-nums[i], 然后转化为two sum
     def threeSum(self, nums):
         results = []
         nums_len = len(nums)

@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 这个题是用数学定理，如果mid比相邻的左边的小，峰值在左边，
+    # 如果mid比相邻的右边的小，峰值在右边。
     def findPeakElement(self, nums):
         if not nums:
             return -1

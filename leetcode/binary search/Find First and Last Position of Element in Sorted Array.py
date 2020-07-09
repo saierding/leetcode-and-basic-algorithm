@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 二分算法找到mid后如果target在前面再继续往前找，中间值存储为
+    # result0即可，如果target在后面再继续往后找，中间值存储为result1.
     def searchRange(self, nums, target):
         l, r = 0, len(nums)
         result = [-1, -1]

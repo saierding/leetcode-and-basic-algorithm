@@ -3,6 +3,7 @@
 
 class Solution:
 
+    # 从右上开始找起即可，记得[][n]可以找到0
     def searchMatrix(self, matrix, target):
         if not matrix:
             return False

@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 可以固定起始位置，可以直接动态规划。
+
     # def maxSubArray(self, nums):
     #     maxnum = float('-inf')
     #     for i in range(len(nums)):

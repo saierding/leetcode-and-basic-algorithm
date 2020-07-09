@@ -3,6 +3,9 @@
 
 class Solution:
 
+    # 这个题给了两个array，要求将nums2加到nums1中排序。这里从后往前排序变动少，
+    # 从后往前记为nums1[index]
+    # 然后谁大将谁填入其中，如果最后nums2没填完，就把它从后往前继续填进去。
     def merge(self, nums1, m, nums2, n):
         index = m + n - 1
         while m > 0 and n > 0:
