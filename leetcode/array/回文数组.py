@@ -9,6 +9,8 @@ class Solution:
     #     return strx == strx[::-1]
 
     # 将数字倒过来比较
+    # 每次把数除以10，取10的余数然后
+    # 加上temp，然后temp每次乘10加余数
     def isPalindrome(self, x):
         temp = x
         ans = 0

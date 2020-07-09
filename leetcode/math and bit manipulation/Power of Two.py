@@ -2,7 +2,7 @@
 
 class Solution:
 
-    # 笨办法
+    # 笨办法直接循环到这个数，用2的n次方去判断。
     def isPowerOfTwo1(self, n):
         i = 0
         while i < n:
@@ -13,7 +13,8 @@ class Solution:
             i += 1
         return False
 
-    # bit, n和n-1位与得到的就是0
+    # bit, 位方法，2的倍数有特性，和比他小一个的数
+    # 位与得到0。n和n-1位与得到的就是0
     def isPowerOfTwo(self, n):
         if n < 1:
             return False

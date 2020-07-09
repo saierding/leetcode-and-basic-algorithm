@@ -3,7 +3,7 @@
 
 class Solution:
 
-    # old approach
+    # 老办法就是dict得出所有的数和对应的个数。然后遍历找到个数为1的
     def singleNumber1(self, nums):
         dict = {}
         for i in range(0, len(nums)):
@@ -14,7 +14,8 @@ class Solution:
             if dict[i] == 1:
                 return i
 
-    # bit
+    # 这里用位方法，特性是两个相同的数异或得0，
+    # 0异或任何数得任何数本身，所以直接全部异或即可。
     def singleNumber(self, nums):
         x = 0
         for i in nums:

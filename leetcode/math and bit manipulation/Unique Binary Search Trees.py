@@ -3,6 +3,8 @@
 
 class Solution:
 
+    # 用动态规划，左子树乘以右子树即可。定义[1，1，2]然后
+    # n=3就是count[0]*count[2]+count[1]*count[1]+count[2]*count[0]。
     def numTrees(self, n):
         count = [1, 1, 2]
         if n < 3:
