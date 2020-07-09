@@ -5,7 +5,6 @@ class Solution:
 
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])
-
         merged = []
         for interval in intervals:
             # if the list of merged intervals is empty or if the current
