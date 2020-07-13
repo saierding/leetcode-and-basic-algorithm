@@ -21,14 +21,18 @@ for x in list1:
         y = x + 1
         while y in list1:
             y += 1
+        start1 = x*2+1
         best1 = max(best1, y - x)
 for x in list2:
     if x - 1 not in list2:
         y = x + 1
         while y in list2:
             y += 1
+        start2 = (x+1)*2
         best2 = max(best2, y - x)
 
-
-print(max(best1, best2))
+if best2 > best1:
+    print(start2, best2)
+else:
+    print(start1, best1)
 
