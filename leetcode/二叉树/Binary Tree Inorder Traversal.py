@@ -15,11 +15,15 @@ class Solution:
     def inorderTraversal(self, root):
         if not root:
             return []
-        return self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right)
+        ans = self.inorderTraversal(root.left)+[root.val]+self.inorderTraversal(root.right)
+        return ans
 
     # 迭代
     # 迭代就是栈存储并循环root和栈，先一直往左走并
     # 进栈，走完了root以后开始出栈并且存储val到result，最后root变为右子树。
+    # 例子：1，2，3
+    # stack:[1,2,出栈  3]
+    # result:[2,1, 3]
     def inorderTraversall(self, root):
         if not root:
             return []
@@ -34,3 +38,17 @@ class Solution:
                 result.append(root.val)
                 root = root.right
         return result
+
+
+node1 = TreeNode(3)
+node2 = TreeNode(9)
+node3 = TreeNode(20)
+node4 = TreeNode(15)
+node5 = TreeNode(7)
+
+node1.left = node2
+node1.right = node3
+node3.left = node4
+node3.right = node5
+s = Solution()
+print(s.inorderTraversal(node1))

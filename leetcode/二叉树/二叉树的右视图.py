@@ -18,11 +18,24 @@ class Solution:
         q, res = [root], list()
         while q:
             res.append(q[-1].val)
-            for _ in range(len(q)):
+            for i in range(len(q)):
                 node = q.pop(0)
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-
         return res
+
+
+node1 = TreeNode(3)
+node2 = TreeNode(9)
+node3 = TreeNode(20)
+node4 = TreeNode(15)
+node5 = TreeNode(7)
+
+node1.left = node2
+node1.right = node3
+node3.left = node4
+node3.right = node5
+s = Solution()
+print(s.rightSideView(node1))

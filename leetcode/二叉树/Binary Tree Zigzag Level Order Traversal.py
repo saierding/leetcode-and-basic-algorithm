@@ -21,6 +21,7 @@ class Solution:
         i = 1
         queue = [root]
         while queue:
+            # 每一层存进layer
             layer = []
             for j in range(len(queue)):
                 node = queue.pop(0)
@@ -29,6 +30,8 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
+            # 用i来统计在哪一层
+            # 对每一层进行判断，奇数直接输出，偶数输出倒序的
             if i % 2 == 1:
                 result.append(layer)
             else:

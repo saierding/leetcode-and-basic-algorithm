@@ -19,6 +19,9 @@ class Solution:
 
     # 迭代是栈存储并循环栈，root进栈然后出栈存储val
     # 到result。接着如果有右子树先进栈右子树，然后进栈左子树。这样顺序就是中左右了
+    # 例子：1，2，3
+    # stack:[1,出栈 3,2 出栈]
+    # result:[1, 2, 3]
     def preorderTraversal(self, root):
         if not root:
             return []

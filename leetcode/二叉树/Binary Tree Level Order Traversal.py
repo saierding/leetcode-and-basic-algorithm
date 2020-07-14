@@ -38,6 +38,7 @@ class Solution:
         queue = [root]
         result = []
         while queue:
+            # 每一层存进layer
             layer = []
             for i in range(len(queue)):
                 node = queue.pop(0)
@@ -46,6 +47,7 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
+            # result统计总的每一层的
             result.append(layer)
         return result
 

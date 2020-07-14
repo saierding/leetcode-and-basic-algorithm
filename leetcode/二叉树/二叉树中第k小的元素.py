@@ -22,8 +22,20 @@ class Solution:
             else:
                 root = stack.pop()
                 result.append(root.val)
-                if len(result) >= k:
-                    break
                 root = root.right
 
-        return result[k - 1]
+        return result[k-1]
+
+
+node1 = TreeNode(3)
+node2 = TreeNode(1)
+node3 = TreeNode(5)
+node4 = TreeNode(4)
+node5 = TreeNode(6)
+
+node1.left = node2
+node1.right = node3
+node3.left = node4
+node3.right = node5
+s = Solution()
+print(s.kthSmallest(node1, 2))
