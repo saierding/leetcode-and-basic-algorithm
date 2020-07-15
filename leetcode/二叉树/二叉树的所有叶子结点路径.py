@@ -28,7 +28,7 @@ class Solution:
         if root.right!= None:
             self.dfs(root.right, res, path+'->'+str(root.right.val))
 
-    # 迭代,和上面基本一样
+    # 迭代,和上面基本一样,层次遍历的思路
     def binaryTreePaths1(self, root: TreeNode):
         if not root:
             return []
@@ -40,9 +40,9 @@ class Solution:
             if not node.left and not node.right:
                 res.append(path)
             if node.left:
-                stack.append((node.left, path + '->' + str(root.left.val)))
+                stack.append((node.left, path + '->' + str(node.left.val)))
             if node.right:
-                stack.append((node.right, path + '->' + str(root.right.val)))
+                stack.append((node.right, path + '->' + str(node.right.val)))
         return res
 
 

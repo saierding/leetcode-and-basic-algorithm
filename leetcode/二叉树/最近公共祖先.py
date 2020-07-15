@@ -23,19 +23,21 @@ class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if not root or root == p or root == q:
             return root
-
+        # 查左子树是否有目标，没有返回none
         left = self.lowestCommonAncestor(root.left, p, q)
+        # 查右子树是否有目标，没有返回none
         right = self.lowestCommonAncestor(root.right, p, q)
+        # 左右子树分别是目标返回当前根节点
         if left and right:
             return root
-
+        # 只有一边有目标返回一边的节点，都没有返回none
         return left if left else right
 
     # 迭代
     # 先通过层序遍历得到p和q的祖先节点。然后将p的所有祖先放到集合ans中去。
     # 接着判断q的父亲节点是不是在ans中，如果不在，继续判断q父亲的父亲，不断向上，
     # 知道其中一个祖先在ans中出现。那么这个出现的节点即为p和q的最近公共祖先。
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+    def lowestCommonAncestor1(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         s, parent = [root], {root: None}
         while p not in parent or q not in parent:
             node = s.pop()
@@ -45,7 +47,6 @@ class Solution:
             if node.right:
                 parent[node.right] = node
                 s.append(node.right)
-
         ans = set()
         while p:
             ans.add(p)
@@ -54,3 +55,16 @@ class Solution:
             q = parent[q]
         return q
 
+
+node1 = TreeNode(1)
+node2 = TreeNode(2)
+node3 = TreeNode(3)
+node4 = TreeNode(4)
+node5 = TreeNode(5)
+
+node1.left = node2
+node1.right = node3
+node2.left = node4
+node2.right = node5
+s = Solution()
+print(s.lowestCommonAncestor1(node1, node4, node5))

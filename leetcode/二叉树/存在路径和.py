@@ -27,28 +27,4 @@ class Solution:
         return False
 
 
-# 更深一步，返回所有为路径和的序列（存在路径和2）
-class Solution:
-
-    def pathSum(self, root, sum):
-
-        result = list()
-        if root == None:
-            return result
-
-        if not root.left and not root.right and sum == root.val:
-            result.append([root.val])
-            return result
-
-        left = self.pathSum(root.left, sum - root.val)
-        for i in left:
-            i.insert(0, root.val)
-            result.append(i)
-
-        right = self.pathSum(root.right, sum - root.val)
-        for i in right:
-            i.insert(0, root.val)
-            result.append(i)
-        return result
-
 

@@ -16,5 +16,4 @@ class Solution:
                 # node1 == None and node2 != None  node1 != None and node2 == None
                 if node1 != node2:
                     return False
-
         return True

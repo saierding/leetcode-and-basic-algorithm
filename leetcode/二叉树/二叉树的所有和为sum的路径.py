@@ -30,6 +30,23 @@ class Solution:
         if root.right:
             self.dfs(root.right, target, res, path+[root.right.val])
 
+    # 迭代,和上面基本一样,层次遍历的思路
+    def pathSum1(self, root: TreeNode, target: int):
+        if not root:
+            return []
+        stack = []
+        res = []
+        stack.append((root, [root.val]))
+        while stack:
+            node, path = stack.pop()
+            if sum(path) == target and not node.left and not node.right:
+                res.append(path)
+            if node.left:
+                stack.append((node.left, path+[node.left.val]))
+            if node.right:
+                stack.append((node.right, path+[node.right.val]))
+        return res
+
 
 node1 = TreeNode(5)
 node2 = TreeNode(4)
@@ -53,4 +70,4 @@ node6.left = node9
 node6.right = node10
 
 s = Solution()
-print(s.pathSum(node1, 22))
+print(s.pathSum1(node1, 22))

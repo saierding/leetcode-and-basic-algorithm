@@ -25,12 +25,15 @@ class Solution:
         return self.helper(root.left, root.right)
 
     def helper(self, left, right):
+        # 如果是第一种的话，我们直接返回True
         if left == None and right == None:
             return True
+        # 第二种和第三种的话，我们返回False
         elif left == None or right == None:
             return False
         elif left.val != right.val:
             return False
+        # 判断left.left and right.right和left.right and right.left是不是同样成立即可。
         else:
             return self.helper(left.left, right.right) and self.helper(left.right, right.left)
 
@@ -49,15 +52,12 @@ class Solution:
             left = stack.pop()
             if left == None and right == None:
                 continue
-
             if (left == None or right == None) or (left.val != right.val):
                 return False
-
             stack.append(left.left)
             stack.append(right.right)
             stack.append(left.right)
             stack.append(right.left)
-
         return True
 
 

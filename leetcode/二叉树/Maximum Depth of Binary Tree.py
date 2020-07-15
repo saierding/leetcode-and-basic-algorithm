@@ -11,9 +11,10 @@ class TreeNode:
 
 class Solution:
 
-    # 广度遍历方法,每一层递增一个数。
-    # 迭代就是将每一层的node存储进一个队列。
+    # 二叉树的层次遍历的方法
+    # 队列存储每一行的节点
     # 当还存在queue时，循环这个队列，将上一层的node出队列并且将这一层的左子树右子树进队列。
+    # 最后统计行数即可
     def maxDepth(self, root):
         if not root:
             return 0

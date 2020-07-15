@@ -11,15 +11,17 @@ class TreeNode:
 
 class Solution:
 
+    # 还是层次遍历的方法
     def minDepth(self, root: TreeNode) -> int:
         result = float('inf')
         if not root:
             return 0
-
+        # 队列保存节点还有深度
         q = [(root, 1)]
         while q:
             node, depth = q.pop(0)
-            if not node.left and not node.right:  # 叶子节点
+            # 到了叶子节点的话，记录当前最小的深度
+            if not node.left and not node.right:
                 result = min(result, depth)
 
             if node.left:
