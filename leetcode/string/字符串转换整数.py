@@ -1,6 +1,7 @@
 # 8. String to Integer (atoi)
 
-
+# Input: "   -42"
+# Output: -42
 class Solution:
 
     def myAtoi(self, str: str) -> int:

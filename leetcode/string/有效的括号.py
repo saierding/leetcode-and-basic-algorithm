@@ -1,6 +1,7 @@
 # 20. Valid Parentheses
 
-
+# Input: "()[]{}"
+# Output: true
 class Solution:
 
     def isValid(self, s: str) -> bool:
@@ -29,3 +30,6 @@ class Solution:
         if len(stack) != 0:
             return False
         return True
+
+s = Solution()
+print(s.isValid("()[]{}"))

@@ -23,7 +23,8 @@ class Solution:
         return maxLength
 
     # O(n)
-    # 用字典记录位置，重复的话left更新到前一个right的下一个
+    # 用字典记录位置,{'d': 2, 'v': 1, 'f': 3}
+    # 重复的话left更新到前一个right的下一个
     def lengthOfLongestSubstring1(self, s):
         left, right = 0, 0
         res = 0

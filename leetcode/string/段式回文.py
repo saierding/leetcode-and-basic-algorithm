@@ -13,3 +13,4 @@ class Solution:
 
 s = Solution()
 print(s.longestDecomposition("ghiabcdefhelloadamhelloabcdefghi"))
+# (ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)".
