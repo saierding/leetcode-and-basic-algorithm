@@ -13,6 +13,7 @@ class Solution:
             if nums[mid] >= target:
                 if nums[mid] == target:
                     result[0] = mid
+                # 在这里接着往前找
                 r = mid
             else:
                 l = mid + 1
@@ -23,6 +24,7 @@ class Solution:
             if nums[mid] <= target:
                 if nums[mid] == target:
                     result[1] = mid
+                # 在这里接着往后找
                 l = mid + 1
             else:
                 r = mid

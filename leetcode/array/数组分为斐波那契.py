@@ -8,7 +8,8 @@ class Solution(object):
         res = []
         self.dfs(S, [], res)
         return res
-
+    # (1,2,3)->(1,2,34)->..(1,2,345..)
+    # ->(1,23,4..)->(123,456,579)
     def dfs(self, num_str, path, res):
         if len(path) >= 3 and path[-1] != path[-2] + path[-3]:
             return False

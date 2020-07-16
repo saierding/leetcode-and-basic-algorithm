@@ -3,7 +3,8 @@
 
 class Solution:
 
-    # 这个题求反转后的有序数列的最小值。如果mid比right小的话，最小值肯定在左边（包含mid），要不然肯定在右边（不包含mid),
+    # 这个题求反转后的有序数列的最小值。
+    # 如果mid比right小的话，最小值肯定在左边（包含mid），要不然肯定在右边（不包含mid),
     # 最后剩下了left和right，哪个大返回哪个。
     def findMin(self, nums):
         if not nums:

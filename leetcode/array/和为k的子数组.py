@@ -35,9 +35,12 @@ class Solution:
             if sum - k in d:
                 res += d[sum - k]
             d[sum] += 1
+        # d = {0: 1, 1: 1, 2: 1, 3: 1, 5: 1, 9: 1, 15: 1}
+        # 和为0出现一次，为1出现一次..用sum-k就提出了前面的连续数组和
+        # 剩下的就是需要的连续数组和了
         return res,d
 
 
-nums = [1,1,1]
+nums = [1,1,1,2,4,6]
 s = Solution()
-print(s.subarraySum1(nums, 2))
+print(s.subarraySum1(nums, 7))

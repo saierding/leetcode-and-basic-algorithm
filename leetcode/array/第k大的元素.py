@@ -14,6 +14,7 @@ class Solution:
     def findKthLargest(self, nums, k):
         import heapq
         output = []
+        # output = [4,5,5,6]
         for i in range(len(nums)):
             if len(output) < k:
                 output.append(nums[i])

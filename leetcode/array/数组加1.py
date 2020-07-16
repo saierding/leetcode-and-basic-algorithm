@@ -19,7 +19,7 @@ class Solution:
         return digits
 
 
-nums = [9, 9]
+nums = [8, 8]
 s = Solution()
 print(s.plusOne(nums))
 
