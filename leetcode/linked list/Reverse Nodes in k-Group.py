@@ -11,17 +11,17 @@ class ListNode:
 class Solution:
 
     # 分开成小块，每一块执行反转，画图解释for循环里面的
+    # 两个指针pre,cur一直往后移动
     # 1->2->3->4->5 k = 3举这个例子,先变成2->1->3->4->5,再变成3->2->1->4->5
     def reverseKGroup(self, head, k):
         h = ListNode(-1)
         h.next = head
         cur = pre = h
-
         n = -1
+        # 统计链表长度n
         while cur != None:
             n += 1
             cur = cur.next
-
         while n >= k:
             cur = pre.next
             for _ in range(k - 1):
@@ -29,10 +29,8 @@ class Solution:
                 cur.next = lat.next
                 lat.next = pre.next
                 pre.next = lat
-
             pre = cur
             n -= k
-
         return h.next
 
 

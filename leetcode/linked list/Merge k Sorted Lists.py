@@ -23,13 +23,32 @@ class Solution:
         x = 0
         for i in lists:
             while i:
+                # (i.val存储val值，x存储整个链表的第几个元素，i存储第几个链表)
                 heapq.heappush(p, (i.val, x, i))
                 i = i.next
                 x += 1
-
         while p:
             cur.next = heapq.heappop(p)[2]
             cur = cur.next
 
         return result.next
+
+
+node1 = ListNode(1)
+node2 = ListNode(4)
+node3 = ListNode(5)
+node4 = ListNode(1)
+node5 = ListNode(3)
+node6 = ListNode(4)
+node7 = ListNode(2)
+node8 = ListNode(6)
+
+node1.next = node2
+node2.next = node3
+node4.next = node5
+node5.next = node6
+node7.next = node8
+s = Solution()
+print(s.mergeKLists([node1, node4, node7]))
+
 

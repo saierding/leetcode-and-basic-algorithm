@@ -18,6 +18,7 @@ class LRUCache:
             return -1
 
     def put(self, key, value):
+        # last=false先进先出，就像队列
         if key in self.cache:
             self.cache.pop(key)
         else:

@@ -10,6 +10,7 @@ class ListNode:
 
 class Solution:
 
+    # 用carry记进位，当前值是%10，进位值是//10
     def addTwoNumbers(self, l1, l2):
         # 进位
         carry = 0

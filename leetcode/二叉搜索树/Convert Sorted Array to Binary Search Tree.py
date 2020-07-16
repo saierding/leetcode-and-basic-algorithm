@@ -37,10 +37,8 @@ class Solution:
             root = root or node
             if l_parent:
                 l_parent.right = node
-
             if r_parent:
                 r_parent.left = node
-
             stack.append((start, mid - 1, None, node))
             stack.append((mid + 1, end, node, None))
 

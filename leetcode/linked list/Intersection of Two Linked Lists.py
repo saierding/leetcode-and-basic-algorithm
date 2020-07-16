@@ -17,22 +17,32 @@ class Solution:
         while headA:
             nodes.add(headA)
             headA = headA.next
-
         while headB:
             if headB in nodes:
                 return headB
 
             headB = headB.next
-
         return None
 
     # 循环着走，走完了a走b，最后就相遇了,O(1)
-    def getIntersectionNode(self, headA, headB):
+    def getIntersectionNode1(self, headA, headB):
         n1, n2 = headA, headB
         while n1 != n2:
             n1 = n1.next if n1 else headB
             n2 = n2.next if n2 else headA
+        return n1.val
 
-        return n1
 
+node1 = ListNode(1)
+node2 = ListNode(2)
+node3 = ListNode(3)
+node4 = ListNode(4)
+node5 = ListNode(5)
+
+node1.next = node2
+node2.next = node4
+node3.next = node4
+node4.next = node5
+s = Solution()
+print(s.getIntersectionNode1(node1, node3))
 

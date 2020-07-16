@@ -54,5 +54,5 @@ node3.left = node4
 node3.right = node5
 s = Solution()
 print(s.serialize(node1))
-print(s.deserialize('1 2 # # 3 4 # # 5 # #'))
+#print(s.deserialize('1 2 # # 3 4 # # 5 # #'))
 
