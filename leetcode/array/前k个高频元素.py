@@ -17,14 +17,14 @@ class Solution:
         count_list = dict()
         for i in nums:
             count_list[i] = count_list.get(i, 0) + 1
-        # print(count_list)
+        # count_list:{1:4, 2:2, 3:1}
         p = list()
         for i in count_list.items():
             heapq.heappush(p, (i[1], i[0]))
+        # p:[(4,1),(2,2),(1,3)]
         return [i[1] for i in heapq.nlargest(k, p)]
 
 
-
 s = Solution()
-nums = [1,1,1,2,2,3]
+nums = [1,1,1,1,2,2,3]
 print(s.topKFrequent1(nums, 2))

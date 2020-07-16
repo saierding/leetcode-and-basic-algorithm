@@ -1,6 +1,7 @@
 # 560. Subarray Sum Equals K
 
-
+# Input:nums = [1,1,1], k = 2
+# Output: 2
 class Solution:
 
     # 每次计算[i,len(nums)]这个区间内以i开始的每个小区间的和，
@@ -34,7 +35,7 @@ class Solution:
             if sum - k in d:
                 res += d[sum - k]
             d[sum] += 1
-        return res
+        return res,d
 
 
 nums = [1,1,1]

@@ -8,7 +8,7 @@ class Solution:
     def threeSumClosest(self, nums, target):
         nums_len = len(nums)
         nums.sort()
-        closest_num = 1000000
+        closest_num = float('inf')
         for i in range(nums_len-2):
             left, right = i+1, nums_len-1
             while left < right:
