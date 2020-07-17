@@ -2,33 +2,33 @@
 
 
 class Solution:
+    # 1.我们对每个grid[i][j]为0的点执行深度优先搜索。
+    # 2.有一个类变量isopened来记录深度优先搜索的结果，
+    # isopened默认为false，如果在深度优先搜索中某个点超出了边界
+    #（说明某个边界有0，这个连通图不是closed的），执行完深度优先搜索后，
+    # 如果isopened为false，将计数器 + 1，封闭连通图数量 + 1。
+    # 时间复杂度O(mn)，
 
-    # 使用深度优先遍历，对逐个连通的小岛进行遍历，每次遍历后将小岛的值更改为-1，为防止重复遍历。
-    # 分别从四个角开始，对整个珊格的小岛进行遍历。
-    # 然后统计走不到的小岛的个数（即0的个数），这些小岛就属于被孤立的小岛。
+    isopened = False
+
     def closedIsland(self, grid) -> int:
-        if not grid:
-            return 0
-        m, n = len(grid), len(grid[0])
-
-        def dfs(i, j, val):
-            if (0 <= i < m and 0 <= j < n and grid[i][j] == 0):
-                grid[i][j] = val
-                dfs(i + 1, j, -1)
-                dfs(i - 1, j, -1)
-                dfs(i, j + 1, -1)
-                dfs(i, j - 1, -1)
-
-        for i in range(m):
-            for j in range(n):
-                if (i == 0 or i == m - 1 or j == 0 or j == n - 1) and grid[i][j] == 0:
-                    dfs(i, j, -1)
-
-        res = 0
-        for i in range(m):
-            for j in range(n):
+        n, m, res = len(grid), len(grid[0]), 0
+        for i in range(n):
+            for j in range(m):
                 if grid[i][j] == 0:
-                    dfs(i, j, -1)
-                    res += 1
-
+                    self.isopened = False
+                    self.DFS(grid, i, j, n, m)
+                    if not self.isopened: res += 1
         return res
+
+    def DFS(self, grid, x, y, n, m):
+        if x < 0 or y < 0 or x >= n or y >= m:
+            self.isopened = True
+            return
+        if grid[x][y] == 1:
+            return
+        grid[x][y] = 1
+        self.DFS(grid, x - 1, y, n, m), self.DFS(grid, x + 1, y, n, m), self.DFS(grid, x, y - 1, n, m), self.DFS(grid,
+                                                                                                                 x,
+                                                                                                                 y + 1,
+                                                                                                                 n, m)

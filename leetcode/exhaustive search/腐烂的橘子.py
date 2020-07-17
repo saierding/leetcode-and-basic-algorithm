@@ -10,7 +10,8 @@ class Solution:
         d = [0, 1, 0, -1, 0]
         q = []
         step = cnt = 0
-
+        # 所有的烂橘子的坐标存放到一个队列里面
+        # 好橘子记录个数cnt
         for i in range(r):
             for j in range(c):
                 if grid[i][j] == 2: q.append([i, j])
@@ -18,7 +19,6 @@ class Solution:
 
         while q:
             if cnt == 0: return step
-
             n = len(q)
             for _ in range(n):
                 x, y = q.pop(0)

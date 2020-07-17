@@ -26,3 +26,11 @@ class Solution:
         board[i][j] = word[index]
         return dfs
 
+# board =
+# [
+#   ['A','B','C','E'],
+#   ['S','F','C','S'],
+#   ['A','D','E','E']
+# ]
+#
+# Given word = "ABCCED", return true.

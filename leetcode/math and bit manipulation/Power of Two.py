@@ -13,7 +13,7 @@ class Solution:
             i += 1
         return False
 
-    # bit, 位方法，2的倍数有特性，和比他小一个的数
+    # bit, 位方法，2的次方有特性，和比他小一个的数
     # 位与得到0。n和n-1位与得到的就是0
     def isPowerOfTwo(self, n):
         if n < 1:

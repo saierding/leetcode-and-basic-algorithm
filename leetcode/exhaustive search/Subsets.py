@@ -10,13 +10,14 @@ class Solution:
     #         result += [[num]+item for item in result]
     #     return result
 
-    # 递归
-    # def subsets(self, nums):
-    #     if not nums:
-    #         return [[]]
-    #     result = self.subsets(nums[1:])
-    #     result += [[nums[0]] + item for item in result]
-    #     return result
+    # 递归：[[], [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]]
+    def subsets1(self, nums):
+        if not nums:
+            return [[]]
+        result = self.subsets1(nums[1:])
+        result += [[nums[0]] + item for item in result]
+        return result
+
 
     # dfs
     # [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
