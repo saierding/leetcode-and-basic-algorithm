@@ -10,7 +10,6 @@ class Solution(object):
     # dp[i]代表了生成总价值为i有多少方案
     # dp[i] += dp[i - coin]，价值为i的解决方案应该加上价值为i - coin的解决方案。
     def change(self, amount, coins):
-
         dp = [0] * (amount + 1)
         dp[0] = 1
         for coin in coins:
