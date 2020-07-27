@@ -15,6 +15,6 @@ class Solution:
         return alist
 
 
-unsorted_list = []
+unsorted_list = [3, 6, 9, 11, 6, 7, 5]
 s = Solution()
 print(s.bubblesort(unsorted_list))
