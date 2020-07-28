@@ -25,6 +25,7 @@ class Solution:
         stack = [-1] + stack + [s_len]
         for i, val in enumerate(stack[1:]):
             stack[i] = val - stack[i] - 1
+        # 不算最后一个的元素中最大的
         return max(stack[:-1])
 
 
