@@ -6,7 +6,7 @@ class Solution:
     def topKFrequent(self, nums, k):
         import collections
         counter = collections.Counter(nums)
-        # print(counter)
+        # Counter({1: 4, 2: 2, 3: 1})
         return [item[0] for item in counter.most_common(k)]
 
     # dict
@@ -27,4 +27,4 @@ class Solution:
 
 s = Solution()
 nums = [1,1,1,1,2,2,3]
-print(s.topKFrequent1(nums, 2))
+print(s.topKFrequent(nums, 2))

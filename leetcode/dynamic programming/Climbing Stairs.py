@@ -18,4 +18,4 @@ class Solution:
 
 
 s = Solution()
-print(s.climbStairs(3))
+print(s.climbStairs(4))

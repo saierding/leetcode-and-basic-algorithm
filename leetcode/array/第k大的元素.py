@@ -23,6 +23,7 @@ class Solution:
                 if nums[i] > output[0]:
                     output[0] = nums[i]
                     output = heapq.nsmallest(k, output)
+        # output = [4, 5, 5, 6]
         return output[0]
 
 
