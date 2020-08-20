@@ -1,29 +1,29 @@
-while True:
-    try:
-        t = int(input().strip())
-        for line in range(t):
-            num = list(map(int, input().split()))
-            n = num[0]
-            nums = num[1:]
-
-            minus = {}
-            page_fin = [0]*n
-            ans = 1
-            for i in range(n):
-                if i > 0:
-                    page_fin[i] = page_fin[i-1]+nums[i]
-                    fin = (page_fin[i] - 1) // 60
-                    minus[fin] = 0
-                else:
-                    page_fin[i] = nums[i]
-                    fin = (page_fin[i] - 1) // 60
-                    minus[fin] = 0
-
-            for i in range(n):
-                fin = (page_fin[i]-1)//60
-                minus[fin] += 1
-                if minus[fin] > 4:
-                    ans = 0
-            print(ans)
-    except:
-        break
+def aStarSearch(problem, heuristic=nullHeuristic):
+    import copy
+    open = util.PriorityQueue()
+    starth = heuristic(problem.getStartState(), problem)
+    startg = 0
+    startTrack = [None]
+    initCost = 0
+    bestG = 0
+    start_node = [problem.getStartState(), startTrack, initCost]
+    open.push(start_node, startg + 2*starth)
+    closed = []
+    best_g = {problem.getStartState(): 100000}
+    while not open.isEmpty():
+        s = open.pop()
+        if s[0] not in closed or s[2] < best_g.get(s[0]):
+            closed.append(s[0])
+            best_g[s[0]] = s[2]
+            if problem.isGoalState(s[0]):
+                return s[1][1:]
+            for c in problem.getSuccessors(s[0]):
+                ch = heuristic(c[0], problem)
+                cg = s[2] + c[2]
+                Closed = copy.deepcopy(s[1])
+                Closed.append(c[1])
+                cData = [c[0], Closed, cg]
+                if c[0] not in closed:
+                    best_g[c[0]] = cg
+                if heuristic(c[0], problem)<10000:
+                    open.push(cData, cg + 2*ch)
