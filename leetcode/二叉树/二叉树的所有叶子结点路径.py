@@ -56,4 +56,4 @@ node1.right = node3
 node2.right = node4
 
 s = Solution()
-print(s.binaryTreePaths1(node1))
+print(s.binaryTreePaths(node1))
