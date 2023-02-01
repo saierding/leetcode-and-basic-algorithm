@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fe580b2-0bcd-4822-b5bc-cb2030fa8327" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode-and-basic-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode-and-basic-algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\\</find>
+      <find>l</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/leetcode/二分查找/二分查找第一次和最后一次出现的位置.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/Group Anagrams(相同的归类).py" />
+        <option value="$PROJECT_DIR$/leetcode/string/Length of Last Word.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/反转字符串.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/字符串转换整数.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/无重复字符最长子串.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/最长公共子序列.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/有效的括号.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/段式回文.py" />
+        <option value="$PROJECT_DIR$/leetcode/others/最小窗口.py" />
+        <option value="$PROJECT_DIR$/leetcode/math and bit manipulation/Power of Two.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/Subsets.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/Word Search.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/找零钱.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/接雨水.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/腐烂的橘子.py" />
+        <option value="$PROJECT_DIR$/leetcode/data structure/LFU.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/存储IP地址.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/复原IP地址.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/字符串的排列.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/排序数组的平方.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/下一个排列.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/分数到小数.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/下一个更大元素.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/封闭岛屿的数目.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/正则匹配.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/z字形变换.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/罗马数字转整数.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/找零钱2.py" />
+        <option value="$PROJECT_DIR$/sorting algorithm/bubble sort.py" />
+        <option value="$PROJECT_DIR$/sorting algorithm/quick sort.py" />
+        <option value="$PROJECT_DIR$/leetcode/string/最长有效括号.py" />
+        <option value="$PROJECT_DIR$/leetcode/dynamic programming/Climbing Stairs.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/第k大的元素.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/和为k的子数组.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/前k个高频元素.py" />
+        <option value="$PROJECT_DIR$/test-81.py" />
+        <option value="$PROJECT_DIR$/test82.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/test3r4.py" />
+        <option value="$PROJECT_DIR$/leetcode/dynamic programming/Jump Game II.py" />
+        <option value="$PROJECT_DIR$/leetcode/math and bit manipulation/Single Number.py" />
+        <option value="$PROJECT_DIR$/leetcode/dynamic programming/最大存水面积.py" />
+        <option value="$PROJECT_DIR$/leetcode/二叉树/二叉树的所有叶子结点路径.py" />
+        <option value="$PROJECT_DIR$/leetcode/exhaustive search/N皇后.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/相交的矩形.py" />
+        <option value="$PROJECT_DIR$/leetcode/array/矩形和圆相交.py" />
+        <option value="$PROJECT_DIR$/leetcode/math and bit manipulation/计算中缀表达式.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test3.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="124" />
+    <option name="y" value="37" />
+    <option name="width" value="1397" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leetcode-and-basic-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-and-basic-algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-and-basic-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-and-basic-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-and-basic-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-and-basic-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-and-basic-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-and-basic-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/string" />
+      <recent name="$PROJECT_DIR$/leetcode/二分查找" />
+      <recent name="$PROJECT_DIR$/leetcode/array" />
+      <recent name="$PROJECT_DIR$/leetcode/字符串转换整数" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test1">
+    <configuration name="最大回文子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/string/最大回文子串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Longest Common Prefix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/string/Longest Common Prefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="回文数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/math and bit manipulation/回文数组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉树的所有叶子结点路径" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/二叉树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/二叉树/二叉树的所有叶子结点路径.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="下一个更大元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/array/下一个更大元素.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode-and-basic-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Longest Common Prefix" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.最大回文子串" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Longest Common Prefix" />
+        <item itemvalue="Python.最大回文子串" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fe580b2-0bcd-4822-b5bc-cb2030fa8327" name="Default Changelist" comment="" />
+      <created>1586929072587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586929072587</updated>
+      <workItem from="1586929075055" duration="55766000" />
+      <workItem from="1588002995773" duration="28665000" />
+      <workItem from="1588681268950" duration="39147000" />
+      <workItem from="1589354780670" duration="65965000" />
+      <workItem from="1590827348886" duration="67993000" />
+      <workItem from="1593925320675" duration="151338000" />
+      <workItem from="1595226342181" duration="13315000" />
+      <workItem from="1595435008917" duration="33662000" />
+      <workItem from="1596131390922" duration="40981000" />
+      <workItem from="1598007883888" duration="22039000" />
+      <workItem from="1598941671739" duration="141000" />
+      <workItem from="1599317118486" duration="7356000" />
+      <workItem from="1603020470725" duration="3208000" />
+      <workItem from="1603074562511" duration="145000" />
+      <workItem from="1616065445935" duration="9000" />
+      <workItem from="1623928063674" duration="142000" />
+      <workItem from="1628155627242" duration="1679000" />
+      <workItem from="1628218627276" duration="12970000" />
+      <workItem from="1628561562435" duration="5736000" />
+      <workItem from="1628849441760" duration="295000" />
+      <workItem from="1628850068796" duration="1309000" />
+      <workItem from="1629796546259" duration="305000" />
+      <workItem from="1630036031875" duration="22909000" />
+      <workItem from="1636271545014" duration="155000" />
+      <workItem from="1636271854545" duration="741000" />
+      <workItem from="1636273096890" duration="576000" />
+      <workItem from="1641435593774" duration="515000" />
+      <workItem from="1645171800029" duration="3485000" />
+      <workItem from="1652871694433" duration="99000" />
+    </task>
+    <task id="LOCAL-00039" summary="dp">
+      <created>1590856124431</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1590856124431</updated>
+    </task>
+    <task id="LOCAL-00040" summary="dp">
+      <created>1591021388538</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1591021388538</updated>
+    </task>
+    <task id="LOCAL-00041" summary="bfs and dp">
+      <created>1591513423718</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1591513423718</updated>
+    </task>
+    <task id="LOCAL-00042" summary="others">
+      <created>1591525313204</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1591525313204</updated>
+    </task>
+    <task id="LOCAL-00043" summary="others">
+      <created>1591526174018</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1591526174018</updated>
+    </task>
+    <task id="LOCAL-00044" summary="others">
+      <created>1591804659109</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1591804659110</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix for understanding">
+      <created>1592881921388</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1592881921388</updated>
+    </task>
+    <task id="LOCAL-00046" summary=" comment for binary search and a sqrt algorithm">
+      <created>1593109405905</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593109405906</updated>
+    </task>
+    <task id="LOCAL-00047" summary="dp">
+      <created>1593109570701</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1593109570701</updated>
+    </task>
+    <task id="LOCAL-00048" summary="listnode">
+      <created>1594128019966</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1594128019966</updated>
+    </task>
+    <task id="LOCAL-00049" summary="leetcode">
+      <created>1594136877752</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1594136877752</updated>
+    </task>
+    <task id="LOCAL-00050" summary="listnode">
+      <created>1594137310453</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1594137310453</updated>
+    </task>
+    <task id="LOCAL-00051" summary="binary tree">
+      <created>1594206969024</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1594206969024</updated>
+    </task>
+    <task id="LOCAL-00052" summary="binary search">
+      <created>1594226449420</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1594226449420</updated>
+    </task>
+    <task id="LOCAL-00053" summary="string">
+      <created>1594232988244</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1594232988244</updated>
+    </task>
+    <task id="LOCAL-00054" summary="string">
+      <created>1594238794417</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1594238794417</updated>
+    </task>
+    <task id="LOCAL-00055" summary="array">
+      <created>1594291678567</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291678567</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix">
+      <created>1594291814877</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291814877</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix">
+      <created>1594291944544</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291944544</updated>
+    </task>
+    <task id="LOCAL-00058" summary="array">
+      <created>1594308567522</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1594308567522</updated>
+    </task>
+    <task id="LOCAL-00059" summary="bit">
+      <created>1594314692525</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1594314692525</updated>
+    </task>
+    <task id="LOCAL-00060" summary="hotfix">
+      <created>1594315271086</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1594315271086</updated>
+    </task>
+    <task id="LOCAL-00061" summary="全排列">
+      <created>1594323235431</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1594323235431</updated>
+    </task>
+    <task id="LOCAL-00062" summary="dp">
+      <created>1594325055224</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1594325055224</updated>
+    </task>
+    <task id="LOCAL-00063" summary="hotfix">
+      <created>1594358220975</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1594358220976</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test">
+      <created>1594644905984</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1594644905984</updated>
+    </task>
+    <task id="LOCAL-00065" summary="test">
+      <created>1594645508238</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1594645508238</updated>
+    </task>
+    <task id="LOCAL-00066" summary="二叉树路径问题">
+      <created>1594668899127</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1594668899127</updated>
+    </task>
+    <task id="LOCAL-00067" summary="二叉树">
+      <created>1594745479231</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1594745479231</updated>
+    </task>
+    <task id="LOCAL-00068" summary="二叉树">
+      <created>1594818162458</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1594818162458</updated>
+    </task>
+    <task id="LOCAL-00069" summary="二叉树与链表">
+      <created>1594872996957</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1594872996957</updated>
+    </task>
+    <task id="LOCAL-00070" summary="数组">
+      <created>1594887541507</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1594887541507</updated>
+    </task>
+    <task id="LOCAL-00071" summary="数组">
+      <created>1594914662450</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1594914662450</updated>
+    </task>
+    <task id="LOCAL-00072" summary="string">
+      <created>1594919588103</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1594919588103</updated>
+    </task>
+    <task id="LOCAL-00073" summary="all in">
+      <created>1594965371149</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1594965371149</updated>
+    </task>
+    <task id="LOCAL-00074" summary="hotfix">
+      <created>1595435072009</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1595435072009</updated>
+    </task>
+    <task id="LOCAL-00075" summary="hotfix">
+      <created>1595479441766</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1595479441766</updated>
+    </task>
+    <task id="LOCAL-00076" summary="hotfix">
+      <created>1595859859270</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1595859859270</updated>
+    </task>
+    <task id="LOCAL-00077" summary="hotfix">
+      <created>1595909776600</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1595909776600</updated>
+    </task>
+    <task id="LOCAL-00078" summary="jump game">
+      <created>1596675906928</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1596675906929</updated>
+    </task>
+    <task id="LOCAL-00079" summary="generator">
+      <created>1597845051550</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1597845051550</updated>
+    </task>
+    <task id="LOCAL-00080" summary="a star">
+      <created>1597907396858</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1597907396858</updated>
+    </task>
+    <task id="LOCAL-00081" summary="a star">
+      <created>1597907547850</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1597907547850</updated>
+    </task>
+    <task id="LOCAL-00082" summary="dp">
+      <created>1597908133873</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1597908133873</updated>
+    </task>
+    <task id="LOCAL-00083" summary="dp">
+      <created>1598721579886</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1598721579887</updated>
+    </task>
+    <task id="LOCAL-00084" summary="aws">
+      <created>1599668247068</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668247068</updated>
+    </task>
+    <task id="LOCAL-00085" summary="aws">
+      <created>1599668496921</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668496921</updated>
+    </task>
+    <task id="LOCAL-00086" summary="aws">
+      <created>1599668544957</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1599668544957</updated>
+    </task>
+    <task id="LOCAL-00087" summary="aws">
+      <created>1599670439658</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1599670439658</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="580646000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="124" y="37" width="1397" height="801" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23763837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39687055" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4167852" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32823366" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6628734" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.329806" />
+      <window_info anchor="right" id="PlantUML" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bfs and dp" />
+    <MESSAGE value="others" />
+    <MESSAGE value="fix for understanding" />
+    <MESSAGE value=" comment for binary search and a sqrt algorithm" />
+    <MESSAGE value="leetcode" />
+    <MESSAGE value="listnode" />
+    <MESSAGE value="binary tree" />
+    <MESSAGE value="binary search" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="array" />
+    <MESSAGE value="bit" />
+    <MESSAGE value="全排列" />
+    <MESSAGE value="test" />
+    <MESSAGE value="二叉树路径问题" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="二叉树与链表" />
+    <MESSAGE value="数组" />
+    <MESSAGE value="string" />
+    <MESSAGE value="all in" />
+    <MESSAGE value="hotfix" />
+    <MESSAGE value="jump game" />
+    <MESSAGE value="generator" />
+    <MESSAGE value="a star" />
+    <MESSAGE value="dp" />
+    <MESSAGE value="aws" />
+    <option name="LAST_COMMIT_MESSAGE" value="aws" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Group_Anagrams.coverage" NAME="Group Anagrams Coverage Results" MODIFIED="1594227113321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Search_in_Rotated_Sorted_Array__1_.coverage" NAME="Search in Rotated Sorted Array (1) Coverage Results" MODIFIED="1588258621114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Unique_Binary_Search_Trees.coverage" NAME="Unique Binary Search Trees Coverage Results" MODIFIED="1588854305548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Palindrome_Linked_List.coverage" NAME="Palindrome Linked List Coverage Results" MODIFIED="1589540715276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Validate_Binary_Search_Tree.coverage" NAME="Validate Binary Search Tree Coverage Results" MODIFIED="1589646366824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search tree" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Valid_Palindrome.coverage" NAME="Valid Palindrome Coverage Results" MODIFIED="1594227391627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Best_Time_to_Buy_and_Sell_Stock.coverage" NAME="Best Time to Buy and Sell Stock Coverage Results" MODIFIED="1594882700849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Intersection_of_Two_Linked_Lists.coverage" NAME="Intersection of Two Linked Lists Coverage Results" MODIFIED="1594832233359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Rotate_Array.coverage" NAME="Rotate Array Coverage Results" MODIFIED="1594876679332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$merge_sort.coverage" NAME="merge sort Coverage Results" MODIFIED="1589125623338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$binary_search.coverage" NAME="binary search Coverage Results" MODIFIED="1587107332161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1595478428493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Add_Two_Numbers.coverage" NAME="Add Two Numbers Coverage Results" MODIFIED="1594867467543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Best_Time_to_Buy_and_Sell_Stock_II.coverage" NAME="Best Time to Buy and Sell Stock II Coverage Results" MODIFIED="1590992044182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Subsets.coverage" NAME="Subsets Coverage Results" MODIFIED="1594923857208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/exhaustive search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$insertion_sort.coverage" NAME="insertion sort Coverage Results" MODIFIED="1595859069092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$IP.coverage" NAME="复原IP地址 Coverage Results" MODIFIED="1594959460547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Group_Anagrams__.coverage" NAME="Group Anagrams(相同的归类) Coverage Results" MODIFIED="1594914875952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$LRU_Cache.coverage" NAME="LRU Cache Coverage Results" MODIFIED="1593968902960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Binary_Tree_Level_Order_Traversal.coverage" NAME="Binary Tree Level Order Traversal Coverage Results" MODIFIED="1594737157367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1636273364567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Search_Insert_Position.coverage" NAME="Search Insert Position Coverage Results" MODIFIED="1594291566245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test_81.coverage" NAME="test-81 Coverage Results" MODIFIED="1596270023165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Wildcard_Matching.coverage" NAME="Wildcard Matching Coverage Results" MODIFIED="1594916506981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$2.coverage" NAME="找零钱2 Coverage Results" MODIFIED="1595417380603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/exhaustive search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Linked_List_Cycle.coverage" NAME="Linked List Cycle Coverage Results" MODIFIED="1588952097922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$implement_str.coverage" NAME="implement str Coverage Results" MODIFIED="1594227186327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Reverse_Nodes_in_k_Group.coverage" NAME="Reverse Nodes in k-Group Coverage Results" MODIFIED="1594870219120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Longest_Palindromic_Substring.coverage" NAME="Longest Palindromic Substring Coverage Results" MODIFIED="1593108642742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Climbing_Stairs.coverage" NAME="Climbing Stairs Coverage Results" MODIFIED="1595916823652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$k.coverage" NAME="前k个高频元素 Coverage Results" MODIFIED="1596090775151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$mn.coverage" NAME="反转从m到n的链表 Coverage Results" MODIFIED="1594872205317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Copy_List_with_Random_Pointer.coverage" NAME="Copy List with Random Pointer Coverage Results" MODIFIED="1589124503334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Duplicates_from_Sorted_List.coverage" NAME="Remove Duplicates from Sorted List Coverage Results" MODIFIED="1589541651483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$3Sum_Closest.coverage" NAME="3Sum Closest Coverage Results" MODIFIED="1594874033532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$0.coverage" NAME="移动0 Coverage Results" MODIFIED="1596087759664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$rotate_string.coverage" NAME="rotate string Coverage Results" MODIFIED="1595151392177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$.coverage" NAME="回文数组 Coverage Results" MODIFIED="1599668323424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1652871785595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Merge_k_Sorted_Lists.coverage" NAME="Merge k Sorted Lists Coverage Results" MODIFIED="1594867918525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Longest_Increasing_Subsequence.coverage" NAME="Longest Increasing Subsequence Coverage Results" MODIFIED="1596950365351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Duplicates_from_Sorted_List_II.coverage" NAME="Remove Duplicates from Sorted List II Coverage Results" MODIFIED="1594870214974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Majority_Element.coverage" NAME="Majority Element Coverage Results" MODIFIED="1596094041397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Jump_Game.coverage" NAME="Jump Game Coverage Results" MODIFIED="1595916353001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Valid_Anagram.coverage" NAME="Valid Anagram Coverage Results" MODIFIED="1594915352318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Maximal_Square.coverage" NAME="Maximal Square Coverage Results" MODIFIED="1594882845705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Longest_Common_Prefix.coverage" NAME="Longest Common Prefix Coverage Results" MODIFIED="1599668365178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Merge_Two_Sorted_Lists.coverage" NAME="Merge Two Sorted Lists Coverage Results" MODIFIED="1589116105208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Duplicates_from_Sorted_Array_II.coverage" NAME="Remove Duplicates from Sorted Array II Coverage Results" MODIFIED="1594875942513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Permutations.coverage" NAME="Permutations Coverage Results" MODIFIED="1594319495485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/exhaustive search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Search_a_2D_Matrix_II.coverage" NAME="Search a 2D Matrix II Coverage Results" MODIFIED="1588255623367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Plus_One.coverage" NAME="Plus One Coverage Results" MODIFIED="1594312661762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$3Sum.coverage" NAME="3Sum Coverage Results" MODIFIED="1594873906045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Longest_Palindromic_Substring__1_.coverage" NAME="Longest Palindromic Substring (1) Coverage Results" MODIFIED="1593109548900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Word_Break.coverage" NAME="Word Break Coverage Results" MODIFIED="1590846972771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test82.coverage" NAME="test82 Coverage Results" MODIFIED="1596272222009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Find_Peak_Element.coverage" NAME="Find Peak Element Coverage Results" MODIFIED="1594291154379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Linked_List_Cycle_II.coverage" NAME="Linked List Cycle II Coverage Results" MODIFIED="1589535668951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Search_a_2D_Matrix.coverage" NAME="Search a 2D Matrix Coverage Results" MODIFIED="1588174030792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$__.coverage" NAME="二叉树的直径(最大路径长度) Coverage Results" MODIFIED="1594806298739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$quick_sort.coverage" NAME="quick sort Coverage Results" MODIFIED="1595859690136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Convert_Sorted_Array_to_Binary_Search_Tree.coverage" NAME="Convert Sorted Array to Binary Search Tree Coverage Results" MODIFIED="1594821137086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉搜索树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test3r4.coverage" NAME="test3r4 Coverage Results" MODIFIED="1596372563306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Palindrome_Number.coverage" NAME="Palindrome Number Coverage Results" MODIFIED="1588850485270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Word_Ladder.coverage" NAME="Word Ladder Coverage Results" MODIFIED="1596091517568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Maximum_Depth_of_Binary_Tree.coverage" NAME="Maximum Depth of Binary Tree Coverage Results" MODIFIED="1594747482737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Sqrt_x_.coverage" NAME="Sqrt(x) Coverage Results" MODIFIED="1588265207199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Median_of_Two_Sorted_Arrays.coverage" NAME="Median of Two Sorted Arrays Coverage Results" MODIFIED="1594278183674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Kth_Largest_Element_in_an_Array.coverage" NAME="Kth Largest Element in an Array Coverage Results" MODIFIED="1594277954042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Merge_Sorted_Array.coverage" NAME="Merge Sorted Array Coverage Results" MODIFIED="1594283852955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Find_First_and_Last_Position_of_Element_in_Sorted_Array.coverage" NAME="Find First and Last Position of Element in Sorted Array Coverage Results" MODIFIED="1594290866178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Binary_Tree_Inorder_Traversal.coverage" NAME="Binary Tree Inorder Traversal Coverage Results" MODIFIED="1595903396832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$test.coverage" NAME="test Coverage Results" MODIFIED="1630323435602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Find_Minimum_in_Rotated_Sorted_Array.coverage" NAME="Find Minimum in Rotated Sorted Array Coverage Results" MODIFIED="1588263755228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Ugly_Number.coverage" NAME="Ugly Number Coverage Results" MODIFIED="1588352488676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Length_of_Last_Word.coverage" NAME="Length of Last Word Coverage Results" MODIFIED="1594915090123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$bubble_sort.coverage" NAME="bubble sort Coverage Results" MODIFIED="1595859064857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Binary_Tree_Zigzag_Level_Order_Traversal.coverage" NAME="Binary Tree Zigzag Level Order Traversal Coverage Results" MODIFIED="1589792883305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary tree" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Maximum_Subarray.coverage" NAME="Maximum Subarray Coverage Results" MODIFIED="1590998164085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$strStr.coverage" NAME="实现strStr函数 Coverage Results" MODIFIED="1594914984997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Element.coverage" NAME="Remove Element Coverage Results" MODIFIED="1594876610696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Duplicates_from_Sorted_Array.coverage" NAME="Remove Duplicates from Sorted Array Coverage Results" MODIFIED="1595076202120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.coverage" NAME="Construct Binary Tree from Preorder and Inorder Traversal Coverage Results" MODIFIED="1594745664261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Single_Number.coverage" NAME="Single Number Coverage Results" MODIFIED="1597118732343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Remove_Nth_Node_From_End_of_List.coverage" NAME="Remove Nth Node From End of List Coverage Results" MODIFIED="1589543132672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Jump_Game_II.coverage" NAME="Jump Game II Coverage Results" MODIFIED="1596675876455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/dynamic programming" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$sum.coverage" NAME="二叉树的所有和为sum的路径 Coverage Results" MODIFIED="1595907788806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/二叉树" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Two_Sum.coverage" NAME="Two Sum Coverage Results" MODIFIED="1587121906616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Binary_Tree_Maximum_Path_Sum.coverage" NAME="Binary Tree Maximum Path Sum Coverage Results" MODIFIED="1594196613734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/binary tree" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Palindrome_Partitioning.coverage" NAME="Palindrome Partitioning Coverage Results" MODIFIED="1589902367583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/exhaustive search" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$1.coverage" NAME="数组加1 Coverage Results" MODIFIED="1596087848812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Power_of_Two.coverage" NAME="Power of Two Coverage Results" MODIFIED="1594921858012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/math and bit manipulation" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Count_and_Say.coverage" NAME="Count and Say Coverage Results" MODIFIED="1594914631361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$First_Missing_Positive.coverage" NAME="First Missing Positive Coverage Results" MODIFIED="1596091359475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$selection_sort.coverage" NAME="selection sort Coverage Results" MODIFIED="1588697690374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sorting algorithm" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Reverse_Words_in_a_String.coverage" NAME="Reverse Words in a String Coverage Results" MODIFIED="1595151365229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/string" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Sort_List.coverage" NAME="Sort List Coverage Results" MODIFIED="1589169392659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/linked list" />
+    <SUITE FILE_PATH="coverage/leetcode_and_basic_algorithm$Search_in_Rotated_Sorted_Array.coverage" NAME="Search in Rotated Sorted Array Coverage Results" MODIFIED="1594876903845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/array" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>slow</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test3r4.py" />
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/Single Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉搜索树/Validate Binary Search Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/二叉树完全性检验.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/正则匹配.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/最大回文子字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/复原IP地址.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/下一个更大元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/下一个排列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/接雨水.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/3Sum Closest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linked list/Reverse Nodes in k-Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/排序数组的平方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/岛屿最大面积.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/第k大的元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/Word Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/螺旋矩阵.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linked list/Add Two Numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" selection-start-line="33" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/linked list/Remove Nth Node From End of List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/最大回文子串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/二叉树的所有叶子结点路径.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/二叉树最大路径和.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/N皇后.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/data structure/Min Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/矩形和圆相交.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/相交的矩形.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/Balanced Binary Tree.py" />
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/Binary Tree Maximum Path Sum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/二叉树/平衡二叉树.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/string/Longest Common Prefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/数组加1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/回文数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/exhaustive search/Subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/计算中缀表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/Majority Element.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/math and bit manipulation/comment">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/825330696/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4665">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/array/合并区间.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.9/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="298" column="24" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star leecode in backend">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic algorithm/binary search.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Jump Game II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/最大存水面积.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Best Time to Buy and Sell Stock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Climbing Stairs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Jump Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Longest Increasing Subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/dynamic programming/Maximum Subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
